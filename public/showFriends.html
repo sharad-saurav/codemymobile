@@ -1,0 +1,28 @@
+
+
+<h1 style="text-align: center">Friend List Of {{firstName}}</h1>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="panel panel-default">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table ng-table="usersTable" class="table table-striped" show-filter="true">
+                    <tr ng-repeat="user in data">
+                        <td data-title="'First Name'" sortable="'firstName'" filter="{ 'firstName': 'text' }" >
+                            {{user.firstName}}
+                        </td>
+                        <td data-title="'Second Name'" >
+                            {{user.lastName}}
+                        </td>
+                        <td data-title="'Action'">
+                            <i class="fa fa-pencil"></i>&nbsp;
+                            <a ng-click="goShowFriends(user._id)">Edit</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>

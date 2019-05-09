@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "Simple friends application.",
+  "main": "server.js",
+  "author": "sharad",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular-ui-router": "^1.0.3",
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "~2.1.2",
+    "moment": "^2.24.0",
+    "mongoose": "~3.6.2",
+    "morgan": "^1.2.3",
+    "ng-ui-router-state-events": "^1.0.1"
+  }
+}
